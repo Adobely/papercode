@@ -1,0 +1,3 @@
+matrix.py creates coordinates and time matrix for every minute of each satellite by using starlink satellite TLE data.
+
+StarCoverTime.py is the main program to use the ILP to find out the minimum number of attack points required within the limited attack time. It uses satellite_positions.csv(The coordinates of the satellites every minute captured by TLE on 2024-08-19), circle_centers.csv(potential attack points) and common_starlink_satellites.csv(make sure to use satellites with consistent TLE data for one week)
